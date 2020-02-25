@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8584F2772405E52600A036BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8584F2762405E52600A036BE /* AppDelegate.swift */; };
+		8584F2792405E52600A036BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8584F2782405E52600A036BE /* SceneDelegate.swift */; };
+		8584F27B2405E52600A036BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8584F27A2405E52600A036BE /* ViewController.swift */; };
+		8584F27E2405E52600A036BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8584F27C2405E52600A036BE /* Main.storyboard */; };
+		8584F2802405E52800A036BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8584F27F2405E52800A036BE /* Assets.xcassets */; };
+		8584F2832405E52800A036BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8584F2812405E52800A036BE /* LaunchScreen.storyboard */; };
+		8584F28E2405E52800A036BE /* MargueritaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8584F28D2405E52800A036BE /* MargueritaTests.swift */; };
+		8584F2992405E52800A036BE /* MargueritaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8584F2982405E52800A036BE /* MargueritaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8584F28A2405E52800A036BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8584F26B2405E52600A036BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584F2722405E52600A036BE;
+			remoteInfo = Marguerita;
+		};
+		8584F2952405E52800A036BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8584F26B2405E52600A036BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8584F2722405E52600A036BE;
+			remoteInfo = Marguerita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8584F2732405E52600A036BE /* Marguerita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marguerita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8584F2762405E52600A036BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8584F2782405E52600A036BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8584F27A2405E52600A036BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8584F27D2405E52600A036BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8584F27F2405E52800A036BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8584F2822405E52800A036BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8584F2842405E52800A036BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8584F2892405E52800A036BE /* MargueritaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MargueritaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8584F28D2405E52800A036BE /* MargueritaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargueritaTests.swift; sourceTree = "<group>"; };
+		8584F28F2405E52800A036BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8584F2942405E52800A036BE /* MargueritaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MargueritaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8584F2982405E52800A036BE /* MargueritaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargueritaUITests.swift; sourceTree = "<group>"; };
+		8584F29A2405E52800A036BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8584F2702405E52600A036BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8584F2862405E52800A036BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8584F2912405E52800A036BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8584F26A2405E52600A036BE = {
+			isa = PBXGroup;
+			children = (
+				8584F2752405E52600A036BE /* Marguerita */,
+				8584F28C2405E52800A036BE /* MargueritaTests */,
+				8584F2972405E52800A036BE /* MargueritaUITests */,
+				8584F2742405E52600A036BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8584F2742405E52600A036BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8584F2732405E52600A036BE /* Marguerita.app */,
+				8584F2892405E52800A036BE /* MargueritaTests.xctest */,
+				8584F2942405E52800A036BE /* MargueritaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8584F2752405E52600A036BE /* Marguerita */ = {
+			isa = PBXGroup;
+			children = (
+				8584F2762405E52600A036BE /* AppDelegate.swift */,
+				8584F2782405E52600A036BE /* SceneDelegate.swift */,
+				8584F27A2405E52600A036BE /* ViewController.swift */,
+				8584F27C2405E52600A036BE /* Main.storyboard */,
+				8584F27F2405E52800A036BE /* Assets.xcassets */,
+				8584F2812405E52800A036BE /* LaunchScreen.storyboard */,
+				8584F2842405E52800A036BE /* Info.plist */,
+			);
+			path = Marguerita;
+			sourceTree = "<group>";
+		};
+		8584F28C2405E52800A036BE /* MargueritaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8584F28D2405E52800A036BE /* MargueritaTests.swift */,
+				8584F28F2405E52800A036BE /* Info.plist */,
+			);
+			path = MargueritaTests;
+			sourceTree = "<group>";
+		};
+		8584F2972405E52800A036BE /* MargueritaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8584F2982405E52800A036BE /* MargueritaUITests.swift */,
+				8584F29A2405E52800A036BE /* Info.plist */,
+			);
+			path = MargueritaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8584F2722405E52600A036BE /* Marguerita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8584F29D2405E52800A036BE /* Build configuration list for PBXNativeTarget "Marguerita" */;
+			buildPhases = (
+				8584F26F2405E52600A036BE /* Sources */,
+				8584F2702405E52600A036BE /* Frameworks */,
+				8584F2712405E52600A036BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marguerita;
+			productName = Marguerita;
+			productReference = 8584F2732405E52600A036BE /* Marguerita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8584F2882405E52800A036BE /* MargueritaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8584F2A02405E52800A036BE /* Build configuration list for PBXNativeTarget "MargueritaTests" */;
+			buildPhases = (
+				8584F2852405E52800A036BE /* Sources */,
+				8584F2862405E52800A036BE /* Frameworks */,
+				8584F2872405E52800A036BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8584F28B2405E52800A036BE /* PBXTargetDependency */,
+			);
+			name = MargueritaTests;
+			productName = MargueritaTests;
+			productReference = 8584F2892405E52800A036BE /* MargueritaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8584F2932405E52800A036BE /* MargueritaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8584F2A32405E52800A036BE /* Build configuration list for PBXNativeTarget "MargueritaUITests" */;
+			buildPhases = (
+				8584F2902405E52800A036BE /* Sources */,
+				8584F2912405E52800A036BE /* Frameworks */,
+				8584F2922405E52800A036BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8584F2962405E52800A036BE /* PBXTargetDependency */,
+			);
+			name = MargueritaUITests;
+			productName = MargueritaUITests;
+			productReference = 8584F2942405E52800A036BE /* MargueritaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8584F26B2405E52600A036BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Bárbara Barone - BBA";
+				TargetAttributes = {
+					8584F2722405E52600A036BE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					8584F2882405E52800A036BE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8584F2722405E52600A036BE;
+					};
+					8584F2932405E52800A036BE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8584F2722405E52600A036BE;
+					};
+				};
+			};
+			buildConfigurationList = 8584F26E2405E52600A036BE /* Build configuration list for PBXProject "Marguerita" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8584F26A2405E52600A036BE;
+			productRefGroup = 8584F2742405E52600A036BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8584F2722405E52600A036BE /* Marguerita */,
+				8584F2882405E52800A036BE /* MargueritaTests */,
+				8584F2932405E52800A036BE /* MargueritaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8584F2712405E52600A036BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8584F2832405E52800A036BE /* LaunchScreen.storyboard in Resources */,
+				8584F2802405E52800A036BE /* Assets.xcassets in Resources */,
+				8584F27E2405E52600A036BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8584F2872405E52800A036BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8584F2922405E52800A036BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8584F26F2405E52600A036BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8584F27B2405E52600A036BE /* ViewController.swift in Sources */,
+				8584F2772405E52600A036BE /* AppDelegate.swift in Sources */,
+				8584F2792405E52600A036BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8584F2852405E52800A036BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8584F28E2405E52800A036BE /* MargueritaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8584F2902405E52800A036BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8584F2992405E52800A036BE /* MargueritaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8584F28B2405E52800A036BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584F2722405E52600A036BE /* Marguerita */;
+			targetProxy = 8584F28A2405E52800A036BE /* PBXContainerItemProxy */;
+		};
+		8584F2962405E52800A036BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8584F2722405E52600A036BE /* Marguerita */;
+			targetProxy = 8584F2952405E52800A036BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8584F27C2405E52600A036BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8584F27D2405E52600A036BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8584F2812405E52800A036BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8584F2822405E52800A036BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8584F29B2405E52800A036BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8584F29C2405E52800A036BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8584F29E2405E52800A036BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Marguerita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baronebarbara.Marguerita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8584F29F2405E52800A036BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Marguerita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baronebarbara.Marguerita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8584F2A12405E52800A036BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MargueritaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baronebarbara.MargueritaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marguerita.app/Marguerita";
+			};
+			name = Debug;
+		};
+		8584F2A22405E52800A036BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MargueritaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baronebarbara.MargueritaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marguerita.app/Marguerita";
+			};
+			name = Release;
+		};
+		8584F2A42405E52800A036BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MargueritaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baronebarbara.MargueritaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marguerita;
+			};
+			name = Debug;
+		};
+		8584F2A52405E52800A036BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MargueritaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baronebarbara.MargueritaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marguerita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8584F26E2405E52600A036BE /* Build configuration list for PBXProject "Marguerita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8584F29B2405E52800A036BE /* Debug */,
+				8584F29C2405E52800A036BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8584F29D2405E52800A036BE /* Build configuration list for PBXNativeTarget "Marguerita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8584F29E2405E52800A036BE /* Debug */,
+				8584F29F2405E52800A036BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8584F2A02405E52800A036BE /* Build configuration list for PBXNativeTarget "MargueritaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8584F2A12405E52800A036BE /* Debug */,
+				8584F2A22405E52800A036BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8584F2A32405E52800A036BE /* Build configuration list for PBXNativeTarget "MargueritaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8584F2A42405E52800A036BE /* Debug */,
+				8584F2A52405E52800A036BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8584F26B2405E52600A036BE /* Project object */;
+}
