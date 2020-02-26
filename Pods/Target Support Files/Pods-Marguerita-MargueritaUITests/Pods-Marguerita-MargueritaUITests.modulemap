@@ -1,0 +1,6 @@
+framework module Pods_Marguerita_MargueritaUITests {
+  umbrella header "Pods-Marguerita-MargueritaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
